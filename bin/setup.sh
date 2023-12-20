@@ -14,6 +14,7 @@ echo "Checking the Python version..."
 python3 --version
 
 echo "Creating a Python virtual environment"
+sudo apt install python3.10-venv
 python3 -m venv ~/backend-pics-venv
 
 echo "Configuring the developer environment..."
